@@ -19,6 +19,8 @@ public class MyClass {
 		driver.findElement(By.partialLinkText("click here")).click();
 		System.out.println(driver.getTitle());
 		driver.quit();
+		driver.quit();
+		driver.quit();
 		
 	}
 
